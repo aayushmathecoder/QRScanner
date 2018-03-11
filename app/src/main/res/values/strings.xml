@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IG Quiz</string>
+    <string name="scan_qrcode">Click to Scan</string>
+    <string name="txt_scan_qr_code">Place QR Code inside the rectangle to scan it. </string>
+    <string name="hint_password">Enter the password</string>
+    <string name="title_activity_welcome_quiz_screen">WelcomeQuizScreen</string>
+</resources>

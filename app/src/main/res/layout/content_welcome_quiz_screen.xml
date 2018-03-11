@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#019fde"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="qrscannezxing.kalinga.gaming.fun.qrscanner.WelcomeQuizScreen"
+    tools:showIn="@layout/activity_welcome_quiz_screen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding_heading_top"
+        android:paddingTop="@dimen/padding_heading_top"
+        android:text="Welcome to I.G. Quiz"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="Instructions"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/question_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/instructions_guideline_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="@dimen/activity_vertical_margin_half"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="1.These Quiz contains 10 questions."
+        android:textColor="@color/button_default_text"
+
+        android:textSize="@dimen/medium_text_size" />
+
+    <TextView
+        android:id="@+id/instructions_guideline_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="@dimen/activity_vertical_margin_half"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="2. The questions are based on the hints you got while playing the game."
+        android:textColor="@color/button_default_text"
+        android:textSize="@dimen/medium_text_size" />
+
+    <TextView
+        android:id="@+id/instructions_guideline_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="@dimen/activity_vertical_margin_half"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="3. Each correct answer will earn you 20 points."
+        android:textColor="@color/button_default_text"
+        android:textSize="@dimen/medium_text_size" />
+
+    <TextView
+        android:id="@+id/instructions_guideline_fourth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="@dimen/activity_vertical_margin_half"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="4. There are no negative marks on giving the wrong answer."
+        android:textColor="@color/button_default_text"
+        android:textSize="@dimen/medium_text_size" />
+</LinearLayout>

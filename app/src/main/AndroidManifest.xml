@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="qrscannezxing.kalinga.gaming.fun.qrscanner">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.CAMERA" />
+
+        <application
+            android:allowBackup="true"
+            android:icon="@drawable/player_idle"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+            <activity android:name="qrscannezxing.kalinga.gaming.fun.qrscanner.HomeScreen"
+                android:screenOrientation="portrait">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+            <activity android:name=".PlayQuizActivity"
+                android:screenOrientation="portrait"/>
+            <activity android:name=".GridActivity" />
+            <activity android:name=".WelcomeQuizScreen"/>
+            <activity android:name=".ResultsScreen"/> <activity android:name=".MainActivity"/>
+            <activity android:name=".PlayMarioActivity"/>
+        </application>
+
+    </manifest>
